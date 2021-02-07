@@ -39,7 +39,7 @@ def myLaterPages(canvas, doc):
 
 
 def createpdf(stockslist, total):
-	doc = SimpleDocTemplate("phello.pdf")
+	doc = SimpleDocTemplate("hello.pdf")
 	Story = [Spacer(1,2*inch)]
 	style = styles["Normal"]
 	for i in stockslist:
