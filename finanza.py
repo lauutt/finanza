@@ -35,7 +35,7 @@ def main(arguments):
 
 	createpdf(stockslist, suma)
 
-	print('Suma total : '+suma)
+	print('Total : '+suma)
 
 
 if __name__ == '__main__':
